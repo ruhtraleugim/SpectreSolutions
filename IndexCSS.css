@@ -1,0 +1,95 @@
+/*Deus Seja Louvado, Bendito Seja o Divino Filho De Maria, Jesus*/
+/*Geral*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: azure;
+    background-color: black;
+}
+p{
+    font-size: 24px;
+}
+hr{
+    margin: 0 auto 30px;
+    max-width: 1200px;
+    
+}
+
+/*cabeçario*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px; 
+}
+ul{
+    display: flex;
+    margin-right: 50px;
+    list-style-type: none;
+}
+ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+/*corpo*/
+.conteiner{
+    padding: 0 70px ;
+    max-width: 1480px;
+}
+.conteudo{
+    display: grid;
+    justify-content: center;
+}
+
+/*carrocel*/
+#carrosel{
+    width: 1340px;
+    height: 400px;
+    background-color: rgb(14, 96, 137);
+    margin: 0 auto;
+}
+#carrosel p {
+    margin-top: 40px
+}
+
+/*Sessão 1*/
+#sessão1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+#sobreNos  {
+    width: 720px;
+    margin: 0 auto;
+}
+#sobreNos h2 {
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+#sobreNos h3 {
+    font-size: 26px;
+}
+#sobreNos p {
+    text-align: justify;
+    text-indent: 1.5em;
+    margin-top: 20px;
+}
+#sessão1 img{
+    padding: 0;
+    margin: 0;
+    max-width: 720px;
+}
+

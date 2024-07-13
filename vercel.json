@@ -1,5 +1,16 @@
 {
-    "rewrites": [
-        { "source": "/(.*)", "destination": "/Static/index/index.html" }
+    "version": 2,
+    "public": true,
+    "builds": [
+        {
+            "src": "Static/index/**/*",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "Static/index/$1"
+        }
     ]
-}
+}  
